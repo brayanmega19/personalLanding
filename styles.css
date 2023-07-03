@@ -13,17 +13,27 @@ header{
     color: aliceblue;
     height: 40vh;
     padding: 2rem;
-    font-family: Arial, Helvetica, sans-serif;
+}
+header h1{
+    font-family: 'Cabin', sans-serif;
+    font-size: 2em;
+    letter-spacing: .3em;
 }
 header p{
     font-family: 'Quicksand', sans-serif;
+}
+header div{
+    
+    width: 35%;
+    margin: 0px auto;
+    text-align: justify;
 }
 article{
     height: 50vh;
     line-height: 1.5rem;
     margin: 2rem;
     padding: 30px;
-    list-style-position: inside;
+    list-style-position: outside;
 }
 .even{
     position: relative;
@@ -32,7 +42,9 @@ article{
     padding: 30px;
     float: right;
     max-width: 60%;
-    
+}
+.odd div{
+    max-width: 60%;
 }
 .even.skills div{
    text-align: left;
@@ -52,4 +64,6 @@ hr{
 footer{
     height: 40vh;
     padding: 2rem;
+    background-color: #8BAAAD;
+    color:#FFF;
 }
