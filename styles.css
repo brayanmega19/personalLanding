@@ -67,3 +67,12 @@ footer{
     background-color: #8BAAAD;
     color:#FFF;
 }
+.even .skills-div{
+    float: left;
+    /* background-color: #4D4847; */
+    display: inline-block;
+}
+.list{
+   position: relative;
+   bottom: 30%;
+}
